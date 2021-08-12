@@ -34,7 +34,7 @@ def test_readme_file_for_formatting():
     f = open("README.md", "r", encoding="utf-8")
     content = f.read()
     f.close()
-    assert content.count("#") >= 5
+    assert content.count("#") >= 2
 
 
 def test_function_name_had_cap_letter():
